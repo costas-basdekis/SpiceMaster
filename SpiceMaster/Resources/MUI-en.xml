@@ -1,0 +1,216 @@
+<MUIXML Language="English (Built-in)" Version="1" LanguageName="English (Built-in)">
+  <General>
+    <ItemsCaptions>
+      <Spice Text="Spice" />
+    </ItemsCaptions>
+    <ListHeaders>
+      <Name Text="Name" />
+      <FullName Text="Full Name" />
+      <Abbrevation Text="Abbrevation" />
+      <Comments Text="Comments" />
+      <CommentText Text="Comment" />
+      <CommentScope Text="Scope" />
+    </ListHeaders>
+    <ListCaptions>
+      <Spices Text="Spices" />
+      <Foods Text="Foods" />
+      <Combinations Text="Spices" />
+      <Definitions Text="Forms" />
+      <Comments Text="Comments" />
+      <Languages Text="Languages" />
+      <Items Text="items" />
+    </ListCaptions>
+    <ListItemsCaptions>
+      <Food Text="Food" />
+      <Combination Text="Spice Form" />
+      <Definition Text="Definition" />
+      <Language Text="Language" />
+    </ListItemsCaptions>
+    <Buttons>
+      <OK Text="OK" />
+      <Cancel Text="Cancel" />
+    </Buttons>
+    <ItemsCommands>
+      <New Text="&amp;New" />
+      <Add Text="&amp;New" />
+      <Edit Text="&amp;Edit" />
+      <Convert Text="Con&amp;vert" />
+      <Cut Text="&amp;Cut" />
+      <Copy Text="C&amp;opy" />
+      <Paste Text="&amp;Paste" />
+      <Remove Text="&amp;Remove" />
+      <Clear Text="C&amp;lear" />
+      <CookIt Text="Coo&amp;k It!" />
+      <ConnectWith Text="Connect &amp;with" />
+      <ConnectWithComma Text="" />
+      <ConnectWithAnd Text="+" />
+      <ConnectWithOr Text="or" />
+      <View Text="View" />
+      <ViewDetails Text="&amp;Details" />
+      <ViewTiles Text="&amp;Tiles" />
+    </ItemsCommands>
+    <Navigation>
+      <Back Text="Back" />
+      <Forward Text="Forward" />
+      <Refresh Text="Refresh" />
+      <GoUp Text="Go Up" />
+      <Go Text="Go" />
+      <Synchronize Text="Sync" />
+    </Navigation>
+    <FileDialogs>
+      <FileFormats>
+        <AllDocuments Text="All Spice Master Documents" />
+        <OldFormat Text="Spice Documents" />
+        <NewFormat Text="SpiceMaster Documents" />
+        <HTML Text="HTML Files" />
+        <HTM Text="HTML Files" />
+        <AllFiles Text="All files" />
+      </FileFormats>
+    </FileDialogs>
+  </General>
+  <Forms>
+    <Main>
+      <Menus>
+        <MainMenu>
+          <File Text="&amp;File">
+            <New Text="&amp;New" />
+            <Save Text="&amp;Save" />
+            <SaveAs Text="Save &amp;as..." />
+            <Open Text="&amp;Open..." />
+            <ExportHTML Text="&amp;Export to HTML..." />
+            <Exit Text="E&amp;xit" />
+          </File>
+          <View Text="&amp;View" />
+          <Tools Text="&amp;Tools" />
+          <Windows Text="&amp;Windows">
+            <Cascade Text="&amp;Cascade" />
+            <TileVertical Text="Tile &amp;Vertical" />
+            <TileHorizontal Text="Tile &amp;Horizontal" />
+            <ArrangeIcons Text="&amp;Arrange Icons" />
+          </Windows>
+          <Help Text="&amp;Help">
+            <Contents Text="&amp;Contents" />
+            <Index Text="&amp;Index" />
+            <Search Text="&amp;Search" />
+            <About Text="&amp;About " />
+          </Help>
+        </MainMenu>
+      </Menus>
+      <Messages>
+        <Ready Text="Ready" />
+        <SelectFile Text="Select file..." />
+        <Working Text="Working..." />
+        <Failed Text="Failed!" />
+        <SaveDocument Text="Save document" />
+        <CouldNotSaveFile Text="Could not save the file. Do you want to specify another?" />
+        <CouldNotLoadFile Text="This document could not be loaded. Do you want to remove it from the recent documents list?" />
+        <UntitledDocument Text="Untitled Document" />
+        <DocumentChanged Text="This document has changed. Do you want to save it?" />
+        <SaveInAnotherFile Text="Do you want to save it in a different file?" />
+     </Messages>
+      <FileDialogs>
+        <OpenFD Title="Select file to load" />
+        <SaveFD Title="Select file to save" />
+        <ExportFD Title="Select file to export" />
+      </FileDialogs>
+    </Main>
+    <LoadFileProcess>
+      <Messages>
+        <LoadingDocument Text="Loading Document..." />
+        <FailedToLoad Text="Failed to load!" />
+      </Messages>
+    </LoadFileProcess>
+    <LoadFileSelect>
+      <FormCaption Text="Select file" />
+      <ListHeaders>
+        <Name Text="Name" />
+        <Path Text="Path" />
+      </ListHeaders>
+      <GroupHeaders>
+        <RDL Text="Recent documents" />
+        <CD Text="Current directory" />
+        <Load Text="Select another file" />
+      </GroupHeaders>
+    </LoadFileSelect>
+    <Foods>
+      <FormCaption Text="Foods" />
+      <General>
+        <NavigateUp Text="Go Up" />
+      </General>
+    </Foods>
+    <Spices>
+      <FormCaption Text="Spices" />
+    </Spices>
+    <DefineCombination>
+      <FormCaption Text="Define spice form" />
+    </DefineCombination>
+    <AutoConvertSpices>
+      <FormCaption Text="Auto Convert Spices" />
+      <General>
+        <ItemsLabel Text="items" />
+        <ItemLabel Text="Item" />
+        <ConversionLabel Text="Conversion" />
+        <ToConvertLabel Text="to convert" />
+        <ConvertToLabel Text="Convert to" />
+        <ConvertAll Text="Convert All" />
+        <ConvertSelected Text="Convert Selected" />
+        <SelectAll Text="Select All" />
+        <SelectNone Text="Select None" />
+      </General>
+    </AutoConvertSpices>
+    <IWannaCook>
+      <FormCaption Text="I Wanna Cook!" />
+      <General>
+        <ShowOnlyMyShelf Text="Show Only My Shelf" />
+        <OpenMyShelf Text="Open 'My Shelf'" />
+        <SearchCriteriaLabel Text="Search Criteria" />
+        <ResultsLabel Text="Results" />
+        <WithAllCriteria Text="With all criteria" />
+        <AlsoInTheseFoodCategories Text="Also in yhese good categories" />
+        <IncludeFoodsParentsCriteria Text="Include Foods' Parents Criteria" />
+        <IncludeCombinationsParentCriteria Text="Include Combinations' Parent Criteria" />
+      </General>
+    </IWannaCook>
+    <MyShelf>
+      <FormCaption Text="My Shelf" />
+    </MyShelf>
+    <Options>
+      <FormCaption Text="Options" />
+      <Tabs>
+        <Startup>
+          <TabCaption Text="Startup" />
+          <AutoLoadDB>
+            <AutoLoadDBCaption Text="Auto Load database" />
+            <LastLoadedFileCaption Text="Last loaded file" />
+            <SpecificFileCaption Text="Specific file" />
+            <SelectFile Text="Select" />
+          </AutoLoadDB>
+        </Startup>
+      </Tabs>
+    </Options>
+    <Progress>
+      <FormCaption Text="Progress" />
+      <General>
+        <CategoryLabel Text="Category" />
+        <ItemLabel Text="Item" />
+      </General>
+    </Progress>
+    <LanguagesManager>
+      <FormCaption Text="Languages Manager" />
+      <General>
+        <DefaultCaption Text="Default" />
+        <CreateCopyCaption Text="Create Copy" />
+        <UpdateCaption Text="Update" />
+      </General>
+      <Messages>
+        <FileIsReadOnly Text="This file is built-in: click '{0}' and edit that" />
+      </Messages>
+    </LanguagesManager>
+    <About>
+      <FormCaption Text="About" />
+      <General>
+        <VersionCaption Text="Version" />
+      </General>
+    </About>
+  </Forms>
+</MUIXML>

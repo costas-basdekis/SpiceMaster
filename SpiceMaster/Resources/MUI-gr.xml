@@ -1,0 +1,216 @@
+<MUIXML Language="Greek (Built-in)" Version="1" LanguageName="Ελληνικά (Ενσωματωμένα)">
+  <General>
+    <ItemsCaptions>
+      <Spice Text="Μπαχαρικό" />
+    </ItemsCaptions>
+    <ListHeaders>
+      <Name Text="Όνομα" />
+      <FullName Text="Πλήρες Όνομα" />
+      <Abbrevation Text="Συντ." />
+      <Comments Text="Σχόλια" />
+      <CommentText Text="Σχόλιο" />
+      <CommentScope Text="Αναφορά" />
+    </ListHeaders>
+    <ListCaptions>
+      <Spices Text="Μπαχαρικά" />
+      <Foods Text="Φαγητά" />
+      <Combinations Text="Μπαχαρικά" />
+      <Definitions Text="Ορισμοί" />
+      <Comments Text="Σχόλια" />
+      <Languages Text="Γλώσσες" />
+      <Items Text="στοιχεία" />
+    </ListCaptions>
+    <ListItemsCaptions>
+      <Food Text="Φαγητό" />
+      <Combination Text="Μορφή" />
+      <Definition Text="Ορισμός" />
+      <Language Text="Γλώσσα" />
+    </ListItemsCaptions>
+    <Buttons>
+      <OK Text="OK" />
+      <Cancel Text="Άκυρο" />
+    </Buttons>
+    <ItemsCommands>
+      <New Text="&amp;Νέο" />
+      <Add Text="&amp;Προσθήκη" />
+      <Edit Text="&amp;Επεξεργασία" />
+      <Convert Text="&amp;Μετατροπή" />
+      <Cut Text="Απο&amp;κοπή" />
+      <Copy Text="&amp;Αντιγραφή" />
+      <Paste Text="&amp;Επικόληση" />
+      <Remove Text="&amp;Διαγραφή" />
+      <Clear Text="&amp;Καθαρισμός" />
+      <CookIt Text="&amp;Μαγείρεψέ Το!" />
+      <ConnectWith Text="&amp;Σύνδεσμος" />
+      <ConnectWithComma Text=", " />
+      <ConnectWithAnd Text="+" />
+      <ConnectWithOr Text="ή" />
+      <View Text="&amp;Προβολή" />
+      <ViewDetails Text="&amp;Λεπτομέριες" />
+      <ViewTiles Text="&amp;Πλακίδια" />
+    </ItemsCommands>
+    <Navigation>
+      <Back Text="Πίσω" />
+      <Forward Text="Μπροστά" />
+      <Refresh Text="Ανανέωση" />
+      <GoUp Text="Επάνω" />
+      <Go Text="Πήγαινε" />
+      <Synchronize Text="Συνχρ." />
+    </Navigation>
+    <FileDialogs>
+      <FileFormats>
+        <AllDocuments Text="Όλα τα Αρχεία SpiceMaster" />
+        <OldFormat Text="Αρχεία Spice" />
+        <NewFormat Text="Αρχεία SpiceMaster" />
+        <HTML Text="Αρχεία HTML" />
+        <HTM Text="Αρχεία HTML" />
+        <AllFiles Text="Όλα τα αρχεία" />
+      </FileFormats>
+    </FileDialogs>
+  </General>
+  <Forms>
+    <Main>
+      <Menus>
+        <MainMenu>
+          <File Text="&amp;Αρχείο">
+            <New Text="&amp;Νέο" />
+            <Save Text="&amp;Αποθήκευση" />
+            <SaveAs Text="Αποθήκευση &amp;ως..." />
+            <Open Text="&amp;Άνοιγμα..." />
+            <ExportHTML Text="&amp;Εξαγωγή σε HTML..." />
+            <Exit Text="Έ&amp;ξοδος" />
+          </File>
+          <View Text="&amp;Προβολή" />
+          <Tools Text="&amp;Εργαλεία" />
+          <Windows Text="&amp;Παράθυρα">
+            <Cascade Text="&amp;Επικάλυψη" />
+            <TileVertical Text="Προβολή σε &amp;Παράθεση" />
+            <TileHorizontal Text="Προβολή σε &amp;Στοίβα" />
+            <ArrangeIcons Text="&amp;Τακτοποίηση των εικονιδίων" />
+          </Windows>
+          <Help Text="&amp;Βοήθεια">
+            <Contents Text="&amp;Περιεχόμενα" />
+            <Index Text="&amp;Κατάλογος" />
+            <Search Text="&amp;Εύρεση" />
+            <About Text="&amp;Πληροφορίες για το " />
+          </Help>
+        </MainMenu>
+      </Menus>
+      <Messages>
+        <Ready Text="Έτοιμο" />
+        <SelectFile Text="Επιλογή αρχείου..." />
+        <Working Text="Δουλεύει..." />
+        <Failed Text="Απέτυχε!" />
+        <SaveDocument Text="Αποθύκευση αρχείου" />
+        <CouldNotSaveFile Text="Δεν γίνεται να αποθηκευτεί το αρχείο. Θέλετε να διαλέξετε άλλο;" />
+        <CouldNotLoadFile Text="Δεν γίνεται να ανοιχτεί το αρχείο. Θέλετε να αφαιρεθεί από την λίστα προσφάτων αρχείων;" />
+        <UntitledDocument Text="Νέο αρχείο" />
+        <DocumentChanged Text="Το αρχείο έχει αλλάξει. Θέλετε να το αποθηκεύσετε;" />
+        <SaveInAnotherFile Text="Θέλετε να το αποθηκεύσετε σε άλλο αρχείο;" />
+      </Messages>
+      <FileDialogs>
+        <OpenFD Title="Επιλογή αρχείου για άνοιγμα" />
+        <SaveFD Title="Επιλογή αρχείου για αποθήκευση" />
+        <ExportFD Title="Επιλογή αρχείου για εξαγωγή" />
+      </FileDialogs>
+    </Main>
+    <LoadFileProcess>
+      <Messages>
+        <LoadingDocument Text="Φορτώνει..." />
+        <FailedToLoad Text="Το άνοιγμα απέτυχε!" />
+      </Messages>
+    </LoadFileProcess>
+    <LoadFileSelect>
+      <FormCaption Text="Επιλογή αρχείου" />
+      <ListHeaders>
+        <Name Text="Αρχείο" />
+        <Path Text="Διαδρομή" />
+      </ListHeaders>
+      <GroupHeaders>
+        <RDL Text="Πρόσφατα έγγραφα" />
+        <CD Text="Τρέχον φάκελος" />
+        <Load Text="Επιλογή αρχείου" />
+      </GroupHeaders>
+    </LoadFileSelect>
+    <Foods>
+      <FormCaption Text="Φαγητά" />
+      <General>
+        <NavigateUp Text="Επάνω" />
+      </General>
+    </Foods>
+    <Spices>
+      <FormCaption Text="Μπαχαρικά" />
+    </Spices>
+    <DefineCombination>
+      <FormCaption Text="Ορισμός μορφής μπαχαρικού" />
+    </DefineCombination>
+    <AutoConvertSpices>
+      <FormCaption Text="Αυτόματη Μετατροπή Μπαχαρικών" />
+      <General>
+        <ItemsLabel Text="στοιχεία" />
+        <ItemLabel Text="Στοχείο" />
+        <ConversionLabel Text="Μετατρόπή" />
+        <ToConvertLabel Text="για μετατροπή" />
+        <ConvertToLabel Text="Μετατροπή σε" />
+        <ConvertAll Text="Μετατρ. Όλων" />
+        <ConvertSelected Text="Μετατρ. Επιλ." />
+        <SelectAll Text="Επιλ. Όλων" />
+        <SelectNone Text="Αποεπιλ. Όλων" />
+      </General>
+    </AutoConvertSpices>
+    <IWannaCook>
+      <FormCaption Text="Θέλω Να Μαγειρέψω!" />
+      <General>
+        <ShowOnlyMyShelf Text="Μόνο το ράφι μου" />
+        <OpenMyShelf Text="Άνοιξε 'Το Ράφι Μου'" />
+        <SearchCriteriaLabel Text="Κριτήρια Εύρεσης" />
+        <ResultsLabel Text="Αποτελέσματα" />
+        <WithAllCriteria Text="Με όλα τα κριτήρια" />
+        <AlsoInTheseFoodCategories Text="Επίσης σε αυτές τις κατηγορίες" />
+        <IncludeFoodsParentsCriteria Text="Επίσης Υπερκατηγορίες στα Φαγητά" />
+        <IncludeCombinationsParentCriteria Text="Επίσης Υπερκατηγορίες στα Μπαχαρικά" />
+      </General>
+    </IWannaCook>
+    <MyShelf>
+      <FormCaption Text="Το Ράφι Μου" />
+    </MyShelf>
+    <Options>
+      <FormCaption Text="Επιλογές" />
+      <Tabs>
+        <Startup>
+          <TabCaption Text="Ξεκίνημα" />
+          <AutoLoadDB>
+            <AutoLoadDBCaption Text="Φόρτωσε Αρχείο Αυτόματα" />
+            <LastLoadedFileCaption Text="Τελευταία Ανοιγμένο" />
+            <SpecificFileCaption Text="Συγκεκριμένο" />
+            <SelectFile Text="Επιλογή" />
+          </AutoLoadDB>
+        </Startup>
+      </Tabs>
+    </Options>
+    <Progress>
+      <FormCaption Text="Progress" />
+      <General>
+        <CategoryLabel Text="Κατηγορία" />
+        <ItemLabel Text="Στοιχείο" />
+      </General>
+    </Progress>
+    <LanguagesManager>
+      <FormCaption Text="Γλώσσες" />
+      <General>
+        <DefaultCaption Text="Default" />
+        <CreateCopyCaption Text="Αντίγραφο" />
+        <UpdateCaption Text="Ανανέωση" />
+      </General>
+      <Messages>
+        <FileIsReadOnly Text="Αυτή η γλώσσα είναι ενσωματωμένη: κάντε κλικ στο '{0}' και αλλάξτε τη νέα" />
+      </Messages>
+    </LanguagesManager>
+    <About>
+      <FormCaption Text="Πληροφορίες για το" />
+      <General>
+        <VersionCaption Text="Έκδοση" />
+      </General>
+    </About>
+  </Forms>
+</MUIXML>

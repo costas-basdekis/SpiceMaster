@@ -1,0 +1,265 @@
+<SpiceMasterDocument Version="1">
+  <Definitions>
+    <Definition UID="1" Name="pdr." FullText="powder" />
+    <Definition UID="2" Name="sd." FullText="seed" />
+    <Definition UID="3" Name="whl." FullText="whole" />
+  </Definitions>
+  <Spices>
+    <Spice UID="1" Name="Agioban">
+      <Combinations>
+        <Combination UID="1">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="3" RefCombUID="1" />
+            <RefCombination UID="2" RefSpiceUID="16" RefCombUID="2" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="2" Name="Anice">
+      <Combinations>
+        <Combination UID="1" />
+        <Combination UID="2">
+          <RefDefinitions>
+            <RefDefinition UID="1" RefUID="2" />
+          </RefDefinitions>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="3" Name="Basil">
+      <Combinations>
+        <Combination UID="1">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="1" RefCombUID="1" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="4" Name="Bayberry">
+      <Combinations>
+        <Combination UID="1" />
+      </Combinations>
+    </Spice>
+    <Spice UID="5" Name="Cicely">
+      <Combinations>
+        <Combination UID="1" />
+      </Combinations>
+    </Spice>
+    <Spice UID="6" Name="Cinnamon">
+      <Combinations>
+        <Combination UID="1">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="7" RefCombUID="1" />
+            <RefCombination UID="2" RefSpiceUID="11" RefCombUID="1" />
+            <RefCombination UID="3" RefSpiceUID="13" RefCombUID="2" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="7" Name="Epazote">
+      <Combinations>
+        <Combination UID="1">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="6" RefCombUID="1" />
+            <RefCombination UID="2" RefSpiceUID="9" RefCombUID="2" />
+            <RefCombination UID="3" RefSpiceUID="10" RefCombUID="1" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="8" Name="Fennel">
+      <Combinations>
+        <Combination UID="1" />
+      </Combinations>
+    </Spice>
+    <Spice UID="9" Name="Herbes de Provence">
+      <Combinations>
+        <Combination UID="1" />
+        <Combination UID="2">
+          <RefDefinitions>
+            <RefDefinition UID="1" RefUID="3" />
+          </RefDefinitions>
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="7" RefCombUID="1" />
+            <RefCombination UID="2" RefSpiceUID="17" RefCombUID="1" />
+            <RefCombination UID="3" RefSpiceUID="11" RefCombUID="1" />
+            <RefCombination UID="4" RefSpiceUID="13" RefCombUID="2" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="10" Name="Masis">
+      <Combinations>
+        <Combination UID="1">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="7" RefCombUID="1" />
+            <RefCombination UID="2" RefSpiceUID="11" RefCombUID="1" />
+            <RefCombination UID="3" RefSpiceUID="13" RefCombUID="2" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="11" Name="Pepper">
+      <Combinations>
+        <Combination UID="1">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="6" RefCombUID="1" />
+            <RefCombination UID="2" RefSpiceUID="9" RefCombUID="2" />
+            <RefCombination UID="3" RefSpiceUID="10" RefCombUID="1" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="12" Name="Rose">
+      <Combinations>
+        <Combination UID="1" />
+      </Combinations>
+    </Spice>
+    <Spice UID="13" Name="Saphran">
+      <Combinations>
+        <Combination UID="1">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="17" RefCombUID="1" />
+          </RefCombinations>
+        </Combination>
+        <Combination UID="2">
+          <RefDefinitions>
+            <RefDefinition UID="1" RefUID="2" />
+          </RefDefinitions>
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="6" RefCombUID="1" />
+            <RefCombination UID="2" RefSpiceUID="9" RefCombUID="2" />
+            <RefCombination UID="3" RefSpiceUID="10" RefCombUID="1" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="14" Name="Setsuan">
+      <Combinations>
+        <Combination UID="1" />
+      </Combinations>
+    </Spice>
+    <Spice UID="15" Name="Tabasco">
+      <Combinations>
+        <Combination UID="1" />
+      </Combinations>
+    </Spice>
+    <Spice UID="16" Name="Vanillia">
+      <Combinations>
+        <Combination UID="1" />
+        <Combination UID="2">
+          <RefDefinitions>
+            <RefDefinition UID="1" RefUID="2" />
+          </RefDefinitions>
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="1" RefCombUID="1" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="17" Name="Wasabe">
+      <Combinations>
+        <Combination UID="1">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="9" RefCombUID="2" />
+            <RefCombination UID="2" RefSpiceUID="13" RefCombUID="1" />
+            <RefCombination UID="3" RefSpiceUID="18" RefCombUID="1" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+    <Spice UID="18" Name="Zaatar">
+      <Combinations>
+        <Combination UID="1">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="17" RefCombUID="1" />
+          </RefCombinations>
+        </Combination>
+      </Combinations>
+    </Spice>
+  </Spices>
+  <Foods>
+    <Food UID="1" Name="Meat">
+      <RefCombinations>
+        <RefCombination UID="1" RefSpiceUID="7" RefCombUID="1" />
+        <RefCombination UID="2" RefSpiceUID="9" RefCombUID="1" />
+        <RefCombination UID="3" RefSpiceUID="1" RefCombUID="1" />
+        <RefCombination UID="4" RefSpiceUID="2" RefCombUID="1" />
+        <RefCombination UID="5" RefSpiceUID="2" RefCombUID="2" />
+        <RefCombination UID="6" RefSpiceUID="6" RefCombUID="1" />
+        <RefCombination UID="7" RefSpiceUID="11" RefCombUID="1" />
+        <RefCombination UID="8" RefSpiceUID="13" RefCombUID="2" />
+      </RefCombinations>
+      <Foods>
+        <Food UID="1" Name="Cold cuts">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="2" RefCombUID="2" />
+            <RefCombination UID="2" RefSpiceUID="8" RefCombUID="1" />
+          </RefCombinations>
+          <Foods>
+            <Food UID="1" Name="Bacon">
+              <RefCombinations>
+                <RefCombination UID="1" RefSpiceUID="12" RefCombUID="1" />
+              </RefCombinations>
+            </Food>
+            <Food UID="2" Name="Sausages">
+              <RefCombinations>
+                <RefCombination UID="1" RefSpiceUID="2" RefCombUID="2">
+                  <Comments>
+                    <Comment UID="1" Text="smoked" />
+                  </Comments>
+                </RefCombination>
+                <RefCombination UID="2" RefSpiceUID="10" RefCombUID="1" />
+                <RefCombination UID="3" RefSpiceUID="15" RefCombUID="1" />
+              </RefCombinations>
+            </Food>
+          </Foods>
+        </Food>
+        <Food UID="2" Name="Lamb">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="5" RefCombUID="1" />
+            <RefCombination UID="2" RefSpiceUID="2" RefCombUID="1" />
+            <RefCombination UID="3" RefSpiceUID="16" RefCombUID="1" />
+            <RefCombination UID="4" RefSpiceUID="18" RefCombUID="1">
+              <Comments>
+                <Comment UID="1" Text="fired" />
+              </Comments>
+            </RefCombination>
+          </RefCombinations>
+        </Food>
+      </Foods>
+    </Food>
+    <Food UID="2" Name="Pasta">
+      <RefCombinations>
+        <RefCombination UID="1" RefSpiceUID="3" RefCombUID="1" />
+        <RefCombination UID="2" RefSpiceUID="4" RefCombUID="1" />
+        <RefCombination UID="3" RefSpiceUID="14" RefCombUID="1" />
+      </RefCombinations>
+      <Foods>
+        <Food UID="1" Name="Noodles">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="17" RefCombUID="1" />
+          </RefCombinations>
+        </Food>
+        <Food UID="2" Name="Spaghetti">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="13" RefCombUID="1" />
+          </RefCombinations>
+        </Food>
+      </Foods>
+    </Food>
+    <Food UID="3" Name="Salads">
+      <RefCombinations>
+        <RefCombination UID="1" RefSpiceUID="6" RefCombUID="1" />
+        <RefCombination UID="2" RefSpiceUID="9" RefCombUID="2" />
+        <RefCombination UID="3" RefSpiceUID="8" RefCombUID="1" />
+      </RefCombinations>
+      <Foods>
+        <Food UID="1" Name="With Eggs">
+          <RefCombinations>
+            <RefCombination UID="1" RefSpiceUID="16" RefCombUID="2" />
+          </RefCombinations>
+        </Food>
+      </Foods>
+    </Food>
+  </Foods>
+</SpiceMasterDocument>
