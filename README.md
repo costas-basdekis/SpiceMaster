@@ -1,5 +1,7 @@
 # A spice affinity chef assistance
 
+[A detailed run down on the development](http://projectholder.blogspot.com/2011/12/project-2-spice-affinity-manager.html)
+
 A spices-to-spices and spices-to-foods affinity catalogue 
 created by [George Kanellopoulos](mailto:g_kanellopoulos@hotmail.com), and implented in VB.Net
 by Costas Basdekis.
